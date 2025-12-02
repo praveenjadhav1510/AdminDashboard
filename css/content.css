@@ -1,0 +1,96 @@
+.content {
+    box-sizing: border-box;
+    background: #1e1e1e;
+    border-radius: 20px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 0px 15px #0000004b;
+    margin-bottom: 200px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.cards {
+    padding: 10px;
+    background: white;
+    color: black;
+    width: 250px;
+    height: 90px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.cards:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0px 0px 15px #0000004b;
+}
+.cards .card-icon {
+    min-width: 60px;
+    min-height: 60px;
+    background: #1e1e1e;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.cards h2 {
+    margin-bottom: 0;
+    padding: 0;
+}
+table {
+    width: 700px;
+}
+table th {
+    background: #ececec;
+    padding: 10px;
+}
+table td {
+    background: #1e1e1e;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+table td:hover {
+    background: #333333;
+    font-size: 22px;
+}
+.data-table {
+    background: white;
+    color: black;
+    padding: 5px;
+}
+.red {
+    color: red;
+}
+.lime {
+    color: lime;
+}
+.cyan {
+    color: cyan;
+}
+.blue {
+    color: blue;
+}
+.yellow {
+    color: yellow;
+}
+
+@media screen and (max-width: 1120px) {
+    .data-table {
+        overflow: scroll;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .cards {
+        width: 100%;
+    }
+}
