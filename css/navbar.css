@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -64,7 +63,7 @@
         width: 75%;
         margin-left: 10px;
     }
-=======
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -130,5 +129,4 @@
         width: 75%;
         margin-left: 10px;
     }
->>>>>>> e43cf79131bb9715268e7250fcd3060e7d329da1
 }
