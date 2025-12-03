@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .admin-footer {
     display: flex;
     justify-content: space-around;
@@ -16,4 +17,24 @@
 .admin-footer-right a {
     color: white;
     text-decoration: underline;
+=======
+.admin-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 200px;
+    margin-top: 300px;
+    widows: 100%;
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.admin-footer-right a {
+    color: white;
+    text-decoration: underline;
+>>>>>>> e43cf79131bb9715268e7250fcd3060e7d329da1
 }
